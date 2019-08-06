@@ -1,0 +1,43 @@
+/* Framework Chatomz Beta Version 1.8
+/* Release 1 Oktober 2018
+/* Create By Firman Setiawan (Firman Chatomz)
+/* Version PHP 5.6.36
+/* version Bootstrap 4.1.3
+/* version Font Awesome 5 Free
+/* php mysqli PDO
+
+
+
+
+*** PANDUAN ***
+
+>> Folder Utama
+[ App ]
+Folder yang memiliki struktur Folder :
+> Config 		// Berfungsi sebagai konfigurasi
+> Controllers 	// Berfungsi sebagai Controller yang menghubungkan Models dan Views
+> Core 			// Berfungsi file utama Controller, Database, ModelClass, Route
+> Library 		// Berfungsi sebagai library tambahan yang dapat di panggil
+> Models 		// Berfungsi untuk menyimpan file yang berhubungan dengan database atau fungsi lainnya
+> Views 		// Bergungsi untuk menyimpan file halaman
+
+Terdapat file :
+> .htaccess // menjaga private folder dan file pada app
+> init // penghubungan seluruh file dalam app
+
+[ Public ]
+Folder yang dapat diakses oleh umum berisi sebagai pengaturan tampilan dan fungsi khusus :
+> assets // tempat penyimpanan file dokumen, gambar, video dll
+> bootstrap4 // framework css yang fleksible dapat dipanggil dengan mudah
+> chartjs // library chart untuk menampilkan grafik
+> css // berisi file css
+> font-awesome // berisi css font awesome untuk icon
+> j-query // berisi file java script j-query
+> js // berisi file java script
+> phpdpdf // librray pembuatan file pdf dengan php
+> popper // style css
+
+Terdapat File :
+> .htaccess //file konfigurasi url
+> index.php // file utama penghubunga semua file
+

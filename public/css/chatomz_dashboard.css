@@ -1,0 +1,53 @@
+/*kode CSS halaman Home */
+.kolom-data{
+  height: 100px;
+  margin : 0px;
+  padding : 10px;
+  position: relative;
+  color : #fff;
+  border-radius: 8px;
+}
+.kolom-data b{
+  font-size: 32px;
+}
+.kolom-icon{
+  position: absolute;
+  right : 0px;
+  top : 0px;
+  height: 100px;
+  width: 70px;
+  padding : 10px;
+  padding-top: 20px;
+}
+.kolom-icon i{
+  font-size: 45px;
+}
+.bg-data1{
+  background-color: #EF5F87;
+}
+.bg-data2{
+  background-color: #7C78B5;
+}
+.bg-data3{
+  background-color: #45B5DF;
+}
+.bg-data4{
+  background-color: #57C285;
+}
+.kolom-data2{
+  height: 250px;
+  background-color: #fff;
+  border-radius: 5px;
+  padding: 10px;
+}
+.kolom-data2 b{
+  text-transform: uppercase;
+  color : grey;
+}
+.kolom-data2 b > a{
+  color : grey;
+  text-decoration: none;
+}
+.kolom-data2 b > a:hover{
+  color : black;
+}
